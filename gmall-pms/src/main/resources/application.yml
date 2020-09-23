@@ -1,0 +1,10 @@
+spring:
+  rabbitmq:
+    host: 192.168.200.128
+    port: 5672
+    virtual-host: /haoge
+    username: haoge
+    password: haoge
+item:
+  rabbitmq:
+    exchange: GMALL-PMS-EXCHANG
